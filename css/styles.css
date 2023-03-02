@@ -65,18 +65,32 @@
   color: var(--text-slate);
   font-size: 118x;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.04em;
   text-decoration: none;
 }
+.link-contacts {
+    color: var(--text-slate);
+    font-size: 118x;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+  }
 .link:hover {
   color: var(--pressed-state-ocean);
 }
 .link:active {
   color: var(--pressed-state-ocean);
 }
-
+.link-contacts:hover {
+    color: var(--pressed-state-ocean);
+  }
+  .link-contacts:active {
+    color: var(--pressed-state-ocean);
+  }
 .buttons {
   font-family: "Roboto", sans-serif;
   color: var(--white-text);
@@ -87,6 +101,9 @@
   letter-spacing: 0.04em;
   border-radius: 4px;
   cursor: pointer;
+}
+.buttons:focus {
+    border-color: var(--pressed-state-ocean);
 }
 .buttons:hover {
   color: var(--white-text);
